@@ -1,0 +1,45 @@
+.about-us-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-right: 200px;
+  }
+  .about-us-container h3{
+    color: rgb(1, 4, 31);
+  }
+  .select-container {
+    position:relative;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #929191;
+    color: rgb(8, 196, 8) ;
+    background-color: rgb(11, 19, 41);
+    border-radius: 20px;
+    appearance: none; /* quita las flechas del select */
+  }
+  
+  .select:focus {
+    outline: none;
+  }
+  
+  .select-container::after {
+    content: '\25BC'; /* flecha hacia abajo */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .employee-details {
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .select-container::after {
+      right: 5px;
+    }
+  }
