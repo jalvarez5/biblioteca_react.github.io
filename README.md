@@ -1,8 +1,13 @@
-# React + Vite
+Realizado por: Jose Alvarez Toro y Aldair Gomez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código fuente de una aplicación web de biblioteca desarrollada en React. 
+La aplicación incluye un sistema de navegación con rutas y rutas con parámetros, implementado utilizando 
+react-router-dom.
 
-Currently, two official plugins are available:
+Tecnologías Utilizadas:
+-React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-react-router-dom
+
+Deploy:
+https://biblioteca-react-route.netlify.app/
